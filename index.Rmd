@@ -43,6 +43,11 @@ background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
 
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
 # Onde estamos no mundo?
 
 ```{r fig.height=6, eval=require('leaflet')}
@@ -72,7 +77,7 @@ background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
 
-# Instalando as bibliotecas necessárias
+# Instalando o `xaringan`
 
 Esse tema foi construído utilizando a biblioteca **xaringan**. Trata-se de um pacote **R** para criar apresentações de slides com o **remark.js** por meio do **R Markdown**. 
 
@@ -99,13 +104,26 @@ background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
 
-# Outras bibliotecas úteis
+# Outras bibliotecas necessárias
 
-Poderá ser útil instalar outras bibliotecas. Dessa forma, no **R**, corra o código que segue:
+Para que você consiga rodar esse exemplo, é interessante que instale alguns pacotes complementares. Esses pacotes são necessários pelo fato de que nesse exemplo de apresentação foram introduzidos alguns elementos interenssantes, como por exemplo, a inserção de mapas que foi possível utilizando a biblioteca **leaflet**. 
+
+Dessa forma, caso você venha deletar todo o conteúdo desse arquivo, apenas deixando o cabeçalho, essas bibliotecas complementares não são necessárias. Nessa situação, vá aos poucos instalando o que precisa. 
+
+
+### Biblioteca nesserárias para rodar essa apresentação
 
 ```{r eval=FALSE, tidy=FALSE}
 # Perceba que usando o devtools na Forma 2 apresentada no frame anterior
-install.packages("devtools")
+install.packages(
+  c("devtools",
+    "leaflet",
+    "magrittr",
+    "dplyr",
+    "ggplot2",
+    "rmarkdown"
+  )
+)
 ```
 
 ---
