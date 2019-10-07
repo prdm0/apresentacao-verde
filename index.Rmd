@@ -32,7 +32,7 @@ background-position: 100% 0%
 # Segam-nos nas redes sociais
 
 [`r icon::fa("instagram")` @estatisticaufpb](https://www.instagram.com/estatisticaufpb/)  
-[`r icon::fa("twitter")` @apreshill](http://twitter.com/apreshill)  
+[`r icon::fa("twitter")` @estatisticaufpb](https://twitter.com/estatisticaufpb)  
 [`r icon::fa("github")` @de-ufpb](https://github.com/de-ufpb)  
 [`r icon::fa("link")` Site: http://www.de.ufpb.br/](http://www.de.ufpb.br/)  
 [`r icon::fa("paper-plane")` fulanodetal@de.ufpb.br](mailto:fulanodetal@de.ufpb.br)
