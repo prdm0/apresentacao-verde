@@ -61,15 +61,14 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-34.846199, -7.140400, zoom = 17)
 ```
 
-<div id="htmlwidget-9f826ec1194a32283fdd" style="width:504px;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9f826ec1194a32283fdd">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[-7.1404,-34.846199],17,[]]},"evals":[],"jsHooks":[]}</script>
-
-
+<div id="htmlwidget-a3d3f904506997026bd4" style="width:504px;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a3d3f904506997026bd4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[-7.1404,-34.846199],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
+class: center, middle
 
 # Destaque com fundo escuro
 
@@ -77,9 +76,9 @@ background-position: 100% 0%
 background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
-class: inverse 
+class: inverse, center, middle
 
-# Destaque com fundo claro
+# Destaque com fundo claro: Poderá ser utilizado na mudança de seções
 
 ---
 background-image: url("img/logo-branca.png")
@@ -92,6 +91,8 @@ Esse tema foi construído utilizando a biblioteca **xaringan**. Trata-se de um p
 
 A biblioteca poderá ser instalada de duas formas:
 
+--
+
 **Forma 1**:
 
 Instalando diretamente do [**CRAN**](https://cran.r-project.org/web/packages/available_packages_by_name.html). Faça:
@@ -100,6 +101,8 @@ Instalando diretamente do [**CRAN**](https://cran.r-project.org/web/packages/ava
 ```r
 install.packages("xaringan")
 ```
+
+--
 
 **Forma 2**:
 
@@ -122,7 +125,7 @@ Para que você consiga rodar esse exemplo, é interessante que instale alguns pa
 Dessa forma, caso você venha deletar todo o conteúdo desse arquivo, apenas deixando o cabeçalho, essas bibliotecas complementares não são necessárias. Nessa situação, vá aos poucos instalando o que precisa. 
 
 
-### Biblioteca nesserárias para rodar essa apresentação
+### Bibliotecas nesserárias para rodar essa apresentação
 
 
 ```r
@@ -140,10 +143,33 @@ install.packages(
 
 ---
 class: inverse, middle, center
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/39/Naruto_Shiki_Fujin.svg)
-background-size: contain
 
-# Naruto
+# Inserindo imagens e gifs
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Inserindo imagens e gifs
+
+&lt;/br&gt;
+
+&lt;/br&gt;
+
+.pull-left[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/gato_espanto.gif" alt="Primeira gif." width="400px" height="250px" /&gt;
+&lt;p class="caption"&gt;Primeira gif.&lt;/p&gt;
+&lt;/div&gt;
+]
+
+.pull-right[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/102_anos.gif" alt="Segunda gif." width="400cm" height="250px" /&gt;
+&lt;p class="caption"&gt;Segunda gif.&lt;/p&gt;
+&lt;/div&gt;
+]
 
 ---
 background-image: url("img/logo-branca.png")
@@ -175,46 +201,13 @@ par(opar)
 ### less simple examples in "See Also" above
 ```
 
-
 ---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+class: middle, center
 
-# Naruto terminology
-
-The **xaringan** package borrowed a few terms from Naruto, such as
-
-- [Sharingan](http://naruto.wikia.com/wiki/Sharingan) (写輪眼; the package name)
-
-- The [moon reader](http://naruto.wikia.com/wiki/Moon_Reader) (月読; an attractive R Markdown output format)
-
-- [Chakra](http://naruto.wikia.com/wiki/Chakra) (查克拉; the path to the remark.js library, which is the power to drive the presentation)
-
-- [Nature transformation](http://naruto.wikia.com/wiki/Nature_Transformation) (性質変化; transform the chakra by setting different options)
-
-- The [infinite moon reader](http://naruto.wikia.com/wiki/Infinite_Tsukuyomi) (無限月読; start a local web server to continuously serve your slides)
-
-- The [summoning technique](http://naruto.wikia.com/wiki/Summoning_Technique) (download remark.js from the web)
-
-You can click the links to know more about them if you want. The jutsu "Moon Reader" may seem a little evil, but that does not mean your slides are evil.
-
----
-
-class: center
-
-# Hand seals (印)
-
-Press `h` or `?` to see the possible ninjutsu you can use in remark.js.
-
-![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Mudra-Naruto-KageBunshin.svg)
-
----
-
-class: center, middle
-
-# Thanks!
-
-Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
-
-The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+# Obrigado pela sua atenção!
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
