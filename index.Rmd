@@ -11,6 +11,8 @@ output:
     nature:
       highlightStyle: github
       ratio: "16:9"
+      highlightLines: true
+      countIncrementalSlides: false
 ---
 
 ```{r xaringan-themer, include = FALSE}
@@ -25,23 +27,22 @@ mono_dark(
 )
 ```
 
+
 background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
 
+
 # Segam-nos nas redes sociais
+
+</br>
+</br>
 
 [`r icon::fa("instagram")` @estatisticaufpb](https://www.instagram.com/estatisticaufpb/)  
 [`r icon::fa("twitter")` @estatisticaufpb](https://twitter.com/estatisticaufpb)  
 [`r icon::fa("github")` @de-ufpb](https://github.com/de-ufpb)  
 [`r icon::fa("link")` Site: http://www.de.ufpb.br/](http://www.de.ufpb.br/)  
 [`r icon::fa("paper-plane")` fulanodetal@de.ufpb.br](mailto:fulanodetal@de.ufpb.br)
-
-
----
-background-image: url("img/logo-branca.png")
-background-size: 100px
-background-position: 100% 0%
 
 ---
 background-image: url("img/logo-branca.png")
@@ -50,22 +51,46 @@ background-position: 100% 0%
 
 # Onde estamos no mundo?
 
-```{r fig.height=6, eval=require('leaflet')}
+--
+
+.pull-left[
+```{r fig.height=6, eval=require('leaflet'), echo = FALSE}
 library(leaflet)
-leaflet() %>% addTiles() %>% setView(-34.846199, -7.140400, zoom = 17)
+leaflet() %>% addTiles() %>% 
+  setView(
+  -34.846199, -7.140400, zoom = 17,
+  options = popupOptions(
+    minWidth = 200,
+    maxWidth = 250
+  )
+)
 ```
+]
+
+--
+
+.pull-right[
+O mapa ao lado foi produzido facilmente utilizando a biblioteca **leaflet**.
+```{r fig.height=6, eval = FALSE}
+library(leaflet)
+leaflet() %>% addTiles() %>% 
+  setView(
+  -34.846199, -7.140400, zoom = 17,
+  options = popupOptions(
+    minWidth = 200,
+    maxWidth = 340
+  )
+)
+```
+]
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
 background-position: 100% 0%
 class: center, middle
 
 # Destaque com fundo escuro
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
 background-position: 100% 0%
 class: inverse, center, middle
 
@@ -109,12 +134,13 @@ background-position: 100% 0%
 
 # Outras bibliotecas necessárias
 
-Para que você consiga rodar esse exemplo, é interessante que instale alguns pacotes complementares. Esses pacotes são necessários pelo fato de que nesse exemplo de apresentação foram introduzidos alguns elementos interenssantes, como por exemplo, a inserção de mapas que foi possível utilizando a biblioteca **leaflet**. 
+Para que você consiga rodar esse exemplo, é interessante que instale alguns pacotes complementares. Esses pacotes são necessários pelo fato de que nesse exemplo de apresentação foram introduzidos alguns elementos interenssantes, como por exemplo, a inserção de mapas que foi possível utilizando a biblioteca **leaflet**. Dessa forma, caso você venha deletar todo o conteúdo desse arquivo, apenas deixando o cabeçalho, essas bibliotecas complementares não são necessárias. Nessa situação, vá aos poucos instalando o que precisa. 
 
-Dessa forma, caso você venha deletar todo o conteúdo desse arquivo, apenas deixando o cabeçalho, essas bibliotecas complementares não são necessárias. Nessa situação, vá aos poucos instalando o que precisa. 
-
+--
 
 ### Bibliotecas nesserárias para rodar essa apresentação
+
+--
 
 ```{r eval=FALSE, tidy=FALSE}
 # Perceba que usando o devtools na Forma 2 apresentada no frame anterior
@@ -124,7 +150,8 @@ install.packages(
     "magrittr",
     "dplyr",
     "ggplot2",
-    "rmarkdown"
+    "rmarkdown",
+    "icon"
   )
 )
 ```
@@ -158,34 +185,33 @@ knitr::include_graphics("img/102_anos.gif")
 ]
 
 ---
+class: inverse, middle, center
+
+# Colocando uma imagem de background
+
+---
+background-image: url("img/homem_aranha.jpg")
+background-size: cover
+
+---
 background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
 
-# Avaliando o modelo
-
-```{r eval=FALSE, tidy=FALSE}
-require(graphics)
-
-## Annette Dobson (1990) "An Introduction to Generalized Linear Models".
-## Page 9: Plant Weight Data.
-ctl <- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)
-trt <- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)
-group <- gl(2, 10, 20, labels = c("Ctl","Trt"))
-weight <- c(ctl, trt)
-lm.D9 <- lm(weight ~ group)
-lm.D90 <- lm(weight ~ group - 1) # omitting intercept
-
-anova(lm.D9)
-summary(lm.D90)
-
-opar <- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))
-plot(lm.D9, las = 1)      # Residuals, Fitted, ...
-par(opar)
-
-### less simple examples in "See Also" above
-
+.pull-left[
+```{r, echo=FALSE,out.width="350px",  out.height="600px",fig.cap="Esse é o Hemílio.",fig.show='hold',fig.align='center'}
+knitr::include_graphics("img/super_hemilio.jpeg")
 ```
+]
+
+--
+
+.pull-right[
+```{r, echo=FALSE,out.width="300cm",  out.height="600px",fig.cap="Esse é o Batman.",fig.show='hold',fig.align='center'}
+knitr::include_graphics("img/batman.png")
+```
+]
+
 
 ---
 background-image: url("img/logo-branca.png")

@@ -30,23 +30,22 @@ class: center, middle, inverse, title-slide
 
 
 
+
 background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
 
+
 # Segam-nos nas redes sociais
+
+&lt;/br&gt;
+&lt;/br&gt;
 
 [<i class="fab  fa-instagram "></i> @estatisticaufpb](https://www.instagram.com/estatisticaufpb/)  
 [<i class="fab  fa-twitter "></i> @estatisticaufpb](https://twitter.com/estatisticaufpb)  
 [<i class="fab  fa-github "></i> @de-ufpb](https://github.com/de-ufpb)  
 [<i class="fas  fa-link "></i> Site: http://www.de.ufpb.br/](http://www.de.ufpb.br/)  
 [<i class="fas  fa-paper-plane "></i> fulanodetal@de.ufpb.br](mailto:fulanodetal@de.ufpb.br)
-
-
----
-background-image: url("img/logo-branca.png")
-background-size: 100px
-background-position: 100% 0%
 
 ---
 background-image: url("img/logo-branca.png")
@@ -55,26 +54,38 @@ background-position: 100% 0%
 
 # Onde estamos no mundo?
 
+--
+
+.pull-left[
+<div id="htmlwidget-bafedb68fb990d73d821" style="width:504px;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-bafedb68fb990d73d821">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[-7.1404,-34.846199],17,{"maxWidth":250,"minWidth":200,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]},"evals":[],"jsHooks":[]}</script>
+]
+
+--
+
+.pull-right[
+O mapa ao lado foi produzido facilmente utilizando a biblioteca **leaflet**.
 
 ```r
 library(leaflet)
-leaflet() %&gt;% addTiles() %&gt;% setView(-34.846199, -7.140400, zoom = 17)
+leaflet() %&gt;% addTiles() %&gt;% 
+  setView(
+  -34.846199, -7.140400, zoom = 17,
+  options = popupOptions(
+    minWidth = 200,
+    maxWidth = 340
+  )
+)
 ```
-
-<div id="htmlwidget-a3d3f904506997026bd4" style="width:504px;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-a3d3f904506997026bd4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[-7.1404,-34.846199],17,[]]},"evals":[],"jsHooks":[]}</script>
+]
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
 background-position: 100% 0%
 class: center, middle
 
 # Destaque com fundo escuro
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
 background-position: 100% 0%
 class: inverse, center, middle
 
@@ -120,12 +131,13 @@ background-position: 100% 0%
 
 # Outras bibliotecas necessárias
 
-Para que você consiga rodar esse exemplo, é interessante que instale alguns pacotes complementares. Esses pacotes são necessários pelo fato de que nesse exemplo de apresentação foram introduzidos alguns elementos interenssantes, como por exemplo, a inserção de mapas que foi possível utilizando a biblioteca **leaflet**. 
+Para que você consiga rodar esse exemplo, é interessante que instale alguns pacotes complementares. Esses pacotes são necessários pelo fato de que nesse exemplo de apresentação foram introduzidos alguns elementos interenssantes, como por exemplo, a inserção de mapas que foi possível utilizando a biblioteca **leaflet**. Dessa forma, caso você venha deletar todo o conteúdo desse arquivo, apenas deixando o cabeçalho, essas bibliotecas complementares não são necessárias. Nessa situação, vá aos poucos instalando o que precisa. 
 
-Dessa forma, caso você venha deletar todo o conteúdo desse arquivo, apenas deixando o cabeçalho, essas bibliotecas complementares não são necessárias. Nessa situação, vá aos poucos instalando o que precisa. 
-
+--
 
 ### Bibliotecas nesserárias para rodar essa apresentação
+
+--
 
 
 ```r
@@ -136,7 +148,8 @@ install.packages(
     "magrittr",
     "dplyr",
     "ggplot2",
-    "rmarkdown"
+    "rmarkdown",
+    "icon"
   )
 )
 ```
@@ -172,34 +185,35 @@ background-position: 100% 0%
 ]
 
 ---
+class: inverse, middle, center
+
+# Colocando uma imagem de background
+
+---
+background-image: url("img/homem_aranha.jpg")
+background-size: cover
+
+---
 background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
 
-# Avaliando o modelo
+.pull-left[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/super_hemilio.jpeg" alt="Esse é o Hemílio." width="350px" height="600px" /&gt;
+&lt;p class="caption"&gt;Esse é o Hemílio.&lt;/p&gt;
+&lt;/div&gt;
+]
 
+--
 
-```r
-require(graphics)
+.pull-right[
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/batman.png" alt="Esse é o Batman." width="300cm" height="600px" /&gt;
+&lt;p class="caption"&gt;Esse é o Batman.&lt;/p&gt;
+&lt;/div&gt;
+]
 
-## Annette Dobson (1990) "An Introduction to Generalized Linear Models".
-## Page 9: Plant Weight Data.
-ctl &lt;- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)
-trt &lt;- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)
-group &lt;- gl(2, 10, 20, labels = c("Ctl","Trt"))
-weight &lt;- c(ctl, trt)
-lm.D9 &lt;- lm(weight ~ group)
-lm.D90 &lt;- lm(weight ~ group - 1) # omitting intercept
-
-anova(lm.D9)
-summary(lm.D90)
-
-opar &lt;- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))
-plot(lm.D9, las = 1)      # Residuals, Fitted, ...
-par(opar)
-
-### less simple examples in "See Also" above
-```
 
 ---
 background-image: url("img/logo-branca.png")
@@ -213,7 +227,9 @@ class: middle, center
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
-"ratio": "16:9"
+"ratio": "16:9",
+"highlightLines": true,
+"countIncrementalSlides": false
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
@@ -253,7 +269,24 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {
