@@ -3,7 +3,7 @@ title: "Título: nome da disciplina / conferência"
 subtitle: ""
 author: "Prof(a). Fulano(a) de Tal"
 institute: "Departamento de Estatística - UFPB"
-date: "04/10/2019"
+date: '</br>`r format(Sys.time(), "%d de %B de %Y")`'
 output:
   xaringan::moon_reader:
     lib_dir: libs
