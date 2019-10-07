@@ -33,7 +33,7 @@ background-size: 100px
 background-position: 100% 0%
 
 
-# Segam-nos nas redes sociais
+# Sigam-nos nas redes sociais
 
 </br>
 </br>
