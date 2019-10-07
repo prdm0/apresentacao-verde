@@ -21,18 +21,10 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Mono);
 
 .title-slide {
-  font-family: 'Josefin Slab', serif;
-  font-weight: 500;
-  font-size: 1.6em;
-  color: #FFFFFF;
-  text-shadow: none;
   background-image: url(img/capa_laranja.png);
-  background-position: top;
-  background-size: 100% 101%;
 }
 
 .title-slide h1 {
-  font-family: 'Josefin Slab', serif;
   text-shadow: 1px 1px 1px #003b3c;
   font-size: 2em;
   padding-top: 1em;
@@ -55,9 +47,6 @@ h1, h2, h3 {
 .remark-slide-content {
   background-color: #261000;
   font-size: 20px;
-  
-  
-  
   padding: 1em 4em 1em 4em;
 }
 .remark-slide-content h1 {
@@ -78,8 +67,6 @@ h1, h2, h3 {
 .remark-inline-code {
   font-size: 1em;
   color: #FF7100;
-  
-  
 }
 .remark-slide-number {
   color: #FF7100;
