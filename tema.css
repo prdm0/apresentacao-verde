@@ -22,6 +22,7 @@
 
 .title-slide {
   background-image: url(img/capa_laranja.png);
+  background-size: cover;
 }
 
 .title-slide h1 {
