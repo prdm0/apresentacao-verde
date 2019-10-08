@@ -8,7 +8,7 @@ Visualize a apresentação clicando [**aqui**](https://de-ufpb.github.io/templat
 
 **Dica**: Aperte **F11** para ampliar a apresentação e utilize as teclas as setas direcionais do seu teclado para navegar entre os frames. Utilizando a tecla **p** você entrará no modo apresentador, modo este apenas visível na primeira tela que é utilizada pelo apresentador.
 
-## O que preciso para começar a fazer minhas apresentações utilizando [**xaringan**](https://github.com/yihui/xaringan)?
+## O que preciso para começar a fazer minhas apresentações utilizando **xaringan**?
 
 Para começar a produzir suas apresentações utilizando a biblioteca [**xaringan**](https://github.com/yihui/xaringan) é necessário conhecer um pouco do [**RMarkdown**](https://rmarkdown.rstudio.com/). 
 
