@@ -34,5 +34,5 @@ install.packages(
 # Gerador de temas:
 devtools::install_github(repo = "gadenbuie/xaringanthemer")
 ```
-A biblioteca [**xaringanthemer**](https://github.com/gadenbuie/xaringanthemer) é útil para que possamos gerar novos temas para as apresentações sem utilizar muito a linguagem [**CSS**](https://pt.wikipedia.org/wiki/Cascading_Style_Sheets). Com essa biblioteca, você facilmente conseguirá modificar o tema disponibilizado nessa apresentação.
+A biblioteca [**xaringanthemer**](https://github.com/gadenbuie/xaringanthemer) é útil para que possamos gerar novos temas para as apresentações sem utilizar muito a linguagem [**CSS**](https://pt.wikipedia.org/wiki/Cascading_Style_Sheets). Com essa biblioteca, você facilmente conseguirá modificar o tema disponibilizado nessa apresentação. Clique [**aqui**](https://pkg.garrickadenbuie.com/xaringanthemer/articles/singles/themes.html) para visualizar alguns temas construídos utilizando o pacote [**xaringanthemer**](https://github.com/gadenbuie/xaringanthemer).
 
