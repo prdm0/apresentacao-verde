@@ -38,11 +38,12 @@ background-position: 100% 0%
 </br>
 </br>
 
-[`r icon::fa("instagram")` @estatisticaufpb](https://www.instagram.com/estatisticaufpb/)  
-[`r icon::fa("twitter")` @estatisticaufpb](https://twitter.com/estatisticaufpb)  
-[`r icon::fa("github")` @de-ufpb](https://github.com/de-ufpb)  
-[`r icon::fa("link")` Site: http://www.de.ufpb.br/](http://www.de.ufpb.br/)  
-[`r icon::fa("paper-plane")` fulanodetal@de.ufpb.br](mailto:fulanodetal@de.ufpb.br)
+[`r icon::fa("link")` **Site do Departamento**: **http://www.de.ufpb.br/**](http://www.de.ufpb.br/)  
+[`r icon::fa("paper-plane")` **fulanodetal@de.ufpb.br**](mailto:fulanodetal@de.ufpb.br)</br>
+[`r icon::fa("instagram")` **@estatisticaufpb**](https://www.instagram.com/estatisticaufpb/)  
+[`r icon::fa("twitter")` **@estatisticaufpb**](https://twitter.com/estatisticaufpb)  
+[`r icon::fa("github")` **@de-ufpb**](https://github.com/de-ufpb)  
+
 
 ---
 background-image: url("img/logo-branca.png")
@@ -236,7 +237,7 @@ background-position: 100% 0%
 </br>
 </br>
 
-```{r echo = FALSE, out.width="550px", fig.align="center", out.height="500px", fig.cap="Vídeo qualquer do YouTube."}
+```{r, echo = FALSE, out.width="800px", out.height="600px", fig.align="center", fig.cap="Vídeo qualquer do YouTube."}
 knitr::include_url("https://www.youtube.com/watch?v=JcyqIA2eJww")
 ```
 
