@@ -300,7 +300,7 @@ library("vembedr")
 embed_url("https://www.youtube.com/watch?v=WbsC_fGArVc")
 ```
 </br>
-Rush - Leave That Thing Alone.
+**Rush - Leave That Thing Alone.**
 ]
 
 --
@@ -312,7 +312,7 @@ library("vembedr")
 embed_url("https://www.youtube.com/watch?v=JcyqIA2eJww")
 ```
 </br>
-    Rush - Tom Sawyer.
+    **Rush - Tom Sawyer.**
 ]
 
 ---
