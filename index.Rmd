@@ -60,8 +60,8 @@ leaflet() %>% addTiles() %>%
   setView(
   -34.846199, -7.140400, zoom = 17,
   options = popupOptions(
-    minWidth = 200,
-    maxWidth = 250
+    minWidth = 150,
+    maxWidth = 150
   )
 )
 ```
@@ -199,7 +199,7 @@ background-size: 100px
 background-position: 100% 0%
 
 .pull-left[
-```{r, echo=FALSE,out.width="350px",  out.height="600px",fig.cap="Esse é o Hemílio.",fig.show='hold',fig.align='center'}
+```{r, echo=FALSE,out.width="250px",  out.height="500px",fig.cap="Esse é o Super-Hemílio.",fig.show='hold',fig.align='center'}
 knitr::include_graphics("img/super_hemilio.jpeg")
 ```
 ]
@@ -207,7 +207,7 @@ knitr::include_graphics("img/super_hemilio.jpeg")
 --
 
 .pull-right[
-```{r, echo=FALSE,out.width="300cm",  out.height="600px",fig.cap="Esse é o Batman.",fig.show='hold',fig.align='center'}
+```{r, echo=FALSE,out.width="200cm",  out.height="500px",fig.cap="Esse é apenas o Batman.",fig.show='hold',fig.align='center'}
 knitr::include_graphics("img/batman.png")
 ```
 ]
