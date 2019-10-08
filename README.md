@@ -16,7 +16,7 @@ Um bom material de [**RMarkdown**](https://rmarkdown.rstudio.com/) é intitulado
 
 Após entender o [**RMarkdown**](https://rmarkdown.rstudio.com/), ficará fácil compreender o conteúdo do arquivo **index.Rmd**. É o arquivo **index.Rmd** que contém todo o código dessa apresentação. O arquivo **index.Rmd** com as imagens e os arquivos com extensão `.css` serão necessários para a reprodução dessa apresentação. Além disso você necessita instalar algumas bibliotecas.
 
-## Para rodar esse exemplo, preciso instalar quais bibliotecas?
+**Para rodar esse exemplo, preciso instalar quais bibliotecas?**
 
 Muito embora essas bibliotecas não sejam essenciais para construir apresentações com [**xaringan**](https://github.com/yihui/xaringan) você necessita instalá-las, uma vez que a apresentação faz uso de recursos como mapas, ícones e inserção de vídeos. Para instalar todas as bibliotecas necessárias, corra o código que segue:
 
