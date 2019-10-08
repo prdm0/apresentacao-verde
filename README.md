@@ -1,6 +1,6 @@
-# Apresentação construída em [**xaringan**](https://github.com/yihui/xaringan)
+# Apresentação construída em **xaringan**
 
-Um pacote [**R**](https://www.r-project.org/) para criar apresentações de slides com o [**remark.js**](https://remarkjs.com/#1) por meio do [**RMarkdown**](https://rmarkdown.rstudio.com/). 
+O pacote pacote [**xaringan**](https://github.com/yihui/xaringan) está disponível no [**CRAN**](https://cran.r-project.org/web/packages/available_packages_by_date.html) da linguagem [**R**](https://www.r-project.org/) e é útil para a criação de apresentações com o [**remark.js**](https://remarkjs.com/#1) utilizando o [**RMarkdown**](https://rmarkdown.rstudio.com/). 
 
 ## Visualizando
 
