@@ -16,9 +16,6 @@
  *    - remarkjs wiki: https://github.com/gnab/remark/wiki
  *
  * ------------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,300i);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
-@import url(https://fonts.googleapis.com/css?family=Droid+Mono);
 
 .title-slide {
   background-image: url(img/capa_laranja.png);
@@ -36,7 +33,7 @@
 
 
 body {
-  font-family: Montserrat, 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
+  font-family: Mansalva;
   font-weight: 300;
   color: #FFE2CC;
 }

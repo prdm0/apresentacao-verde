@@ -7,7 +7,7 @@ date: '</br>`r format(Sys.time(), "%d de %B de %Y")`'
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["tema.css"]
+    css: ["tema.css", "xaringan-themer.css"]
     nature:
       highlightStyle: github
       ratio: "16:9"
@@ -22,7 +22,7 @@ library(xaringanthemer)
 mono_dark(
   base_color = "#FF7100",
   header_font_google = google_font("Josefin Sans"),
-  text_font_google   = google_font("Montserrat", "300", "300i"),
+  text_font_google   = google_font("Barlow", "400", "400i"),
   code_font_google   = google_font("Droid Mono"),
 )
 ```
@@ -66,6 +66,14 @@ leaflet() %>% addTiles() %>%
 )
 ```
 ]
+
+???
+
+Uma anotação qualquer. É preciso apertar a tecla P para ter acesso ao "modo apresentador". As anotações podem incluir fórmulas matemáticas:
+
+$$\int_0^x f(x) dx$$
+
+
 
 --
 
@@ -198,19 +206,33 @@ background-image: url("img/logo-branca.png")
 background-size: 100px
 background-position: 100% 0%
 
+</br>
+
 .pull-left[
-```{r, echo=FALSE,out.width="250px",  out.height="500px",fig.cap="Esse é o Super-Hemílio.",fig.show='hold',fig.align='center'}
-knitr::include_graphics("img/super_hemilio.jpeg")
+```{r, echo=FALSE,out.width="200cm",  out.height="500px",fig.cap="Esse é apenas o Batman.",fig.show='hold',fig.align='center'}
+knitr::include_graphics("img/batman.png")
 ```
 ]
 
 --
 
 .pull-right[
-```{r, echo=FALSE,out.width="200cm",  out.height="500px",fig.cap="Esse é apenas o Batman.",fig.show='hold',fig.align='center'}
-knitr::include_graphics("img/batman.png")
+```{r, echo=FALSE,out.width="250px",  out.height="500px",fig.cap="Esse é o Super-Hemílio.",fig.show='hold',fig.align='center'}
+knitr::include_graphics("img/super_hemilio.jpeg")
 ```
 ]
+
+---
+class: inverse, middle, center
+
+# Suporte à reprodução de vídeos
+
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
 
 
 ---
