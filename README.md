@@ -18,10 +18,10 @@ Após entender o [**RMarkdown**](https://rmarkdown.rstudio.com/), fica fácil co
 
 # Para rodar esse exemplo, preciso instalar quais bibliotecas?
 
-Muito embora essas bibliotecas não sejam excenciais para construir apresentações com [**xaringan**](https://github.com/yihui/xaringan) você necessita instalá-las, uma vez que a apresentação faz uso de recursos como mapas, ícones e inserção de vídeos. Para instalar todas as bibliotecas necessárias, corra o código que segue:
+Muito embora essas bibliotecas não sejam essenciais para construir apresentações com [**xaringan**](https://github.com/yihui/xaringan) você necessita instalá-las, uma vez que a apresentação faz uso de recursos como mapas, ícones e inserção de vídeos. Para instalar todas as bibliotecas necessárias, corra o código que segue:
 
 ```r
-# Perceba que usando o devtools na Forma 2 apresentada no frame anterior
+# Pacotes necessários
 install.packages(
   c("devtools",
     "leaflet",
@@ -34,5 +34,5 @@ install.packages(
 # Gerador de temas:
 devtools::install_github(repo = "gadenbuie/xaringanthemer")
 ```
-A biblioteca [**xaringanthemer**](https://github.com/gadenbuie/xaringanthemer) é útil para que possamos gerar novos temas para as apresentações sem utilizar muito [**CSS**](https://pt.wikipedia.org/wiki/Cascading_Style_Sheets). Com essa biblioteca, você facilmente conseguirá modificar o tema disponibilizado nessa apresentação.
+A biblioteca [**xaringanthemer**](https://github.com/gadenbuie/xaringanthemer) é útil para que possamos gerar novos temas para as apresentações sem utilizar muito a linguagem [**CSS**](https://pt.wikipedia.org/wiki/Cascading_Style_Sheets). Com essa biblioteca, você facilmente conseguirá modificar o tema disponibilizado nessa apresentação.
 
