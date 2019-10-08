@@ -12,6 +12,6 @@ Visualize a apresentação clicando [**aqui**](https://de-ufpb.github.io/templat
 
 Para começar a produzir suas apresentações utilizando a biblioteca [**xaringan**](https://github.com/yihui/xaringan) é necessário conhecer um pouco do [**RMarkdown**](https://rmarkdown.rstudio.com/). 
 
-Um bom material de [**RMarkdown**](https://rmarkdown.rstudio.com/) é intitulado [**R Markdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/). Nesse material você encontra o que necessita para conhecer de forma safisfatória o [**RMarkdown**](https://rmarkdown.rstudio.com/).
+Um bom material de [**RMarkdown**](https://rmarkdown.rstudio.com/) é intitulado [**R Markdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/). Nesse material você encontrará o que necessita para conhecer de forma safisfatória o [**RMarkdown**](https://rmarkdown.rstudio.com/).
 
 Após entender o [**RMarkdown**](https://rmarkdown.rstudio.com/), fica fácil compreender o conteúdo do arquivo **index.Rmd** que contém todo o código dessa apresentação.
