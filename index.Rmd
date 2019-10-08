@@ -7,7 +7,7 @@ date: '</br>`r format(Sys.time(), "%d de %B de %Y")`'
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["tema.css", "xaringan-themer.css"]
+    css: ["tema_preto.css", "xaringan-themer.css"]
     nature:
       highlightStyle: github
       ratio: "16:9"
@@ -15,12 +15,17 @@ output:
       countIncrementalSlides: false
 ---
 
+background-image: url("img/logo_ufpb_de.png")
+background-size: 100px
+background-position: 100% 0%
+
+
 ```{r xaringan-themer, include = FALSE}
 # install.packages(c("xaringan", "devtools"))
 # devtools::install_github("gadenbuie/xaringanthemer")
 library(xaringanthemer)
-mono_dark(
-  base_color = "#FF7100",
+mono_light(
+  base_color = "#201E20",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Barlow", "400", "400i"),
   code_font_google   = google_font("Droid Mono"),
@@ -28,8 +33,8 @@ mono_dark(
 ```
 
 
-background-image: url("img/logo-branca.png")
-background-size: 100px
+background-image: url("img/logo-texto.png")
+background-size: 200px
 background-position: 100% 0%
 
 
@@ -46,8 +51,8 @@ background-position: 100% 0%
 
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
+background-image: url("img/logo-texto.png")
+background-size: 200px
 background-position: 100% 0%
 
 # Onde estamos no mundo?
@@ -92,7 +97,7 @@ leaflet() %>% addTiles() %>%
 ]
 
 ---
-background-position: 100% 0%
+background-position: 200% 0%
 class: center, middle
 
 # Destaque com fundo escuro
@@ -104,8 +109,8 @@ class: inverse, center, middle
 # Destaque com fundo claro: Poderá ser utilizado na mudança de seções
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
+background-image: url("img/logo-texto.png")
+background-size: 200px
 background-position: 100% 0%
 
 # Instalando o `xaringan`
@@ -135,8 +140,8 @@ devtools::install_github("yihui/xaringan")
 ```
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
+background-image: url("img/logo-texto.png")
+background-size: 200px
 background-position: 100% 0%
 
 # Outras bibliotecas necessárias
@@ -163,8 +168,8 @@ install.packages(
 ```
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
+background-image: url("img/logo-texto.png")
+background-size: 200px
 background-position: 100% 0%
 
 # Como posso aprender a fazer apresentações assim?
@@ -196,8 +201,8 @@ class: inverse, middle, center
 # Inserindo imagens e gifs
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
+background-image: url("img/logo-texto.png")
+background-size: 200px
 background-position: 100% 0%
 
 # Inserindo imagens e gifs
@@ -244,8 +249,8 @@ knitr::include_graphics("img/logo-texto.png")
 
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
+background-image: url("img/logo-texto.png")
+background-size: 200px
 background-position: 100% 0%
 
 </br>
@@ -271,8 +276,8 @@ class: inverse, middle, center
 
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
+background-image: url("img/logo-texto.png")
+background-size: 200px
 background-position: 100% 0%
 
 </br>
@@ -316,8 +321,8 @@ embed_url("https://www.youtube.com/watch?v=JcyqIA2eJww")
 ]
 
 ---
-background-image: url("img/logo-branca.png")
-background-size: 100px
+background-image: url("img/logo-texto.png")
+background-size: 200px
 background-position: 100% 0%
 class: middle, center
 

@@ -24,15 +24,15 @@
 body {
   font-family: Barlow, 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
   font-weight: 400;
-  color: #FFE2CC;
+  color: #161516;
 }
 h1, h2, h3 {
   font-family: Josefin Sans;
   font-weight: normal;
-  color: #FF7100;
+  color: #201E20;
 }
 .remark-slide-content {
-  background-color: #261000;
+  background-color: #E8E8E8;
   font-size: 20px;
   
   
@@ -56,18 +56,18 @@ h1, h2, h3 {
 }
 .remark-inline-code {
   font-size: 1em;
-  color: #FF7100;
+  color: #201E20;
   
   
 }
 .remark-slide-number {
-  color: #FF7100;
+  color: #201E20;
   opacity: 1;
   font-size: 0.9em;
 }
-strong{color:#FF7100;}
+strong{color:#201E20;}
 a, a > code {
-  color: #FF7100;
+  color: #201E20;
   text-decoration: none;
 }
 .footnote {
@@ -81,18 +81,18 @@ a, a > code {
   background-color: rgba(255,255,0,0.5);
 }
 .inverse {
-  background-color: #FF7100;
-  color: #261000;
+  background-color: #201E20;
+  color: #E8E8E8;
   
 }
 .inverse h1, .inverse h2, .inverse h3 {
-  color: #261000;
+  color: #E8E8E8;
 }
 .title-slide, .title-slide h1, .title-slide h2, .title-slide h3 {
-  color: #261000;
+  color: #E8E8E8;
 }
 .title-slide {
-  background-color: #FF7100;
+  background-color: #201E20;
   
   
   
@@ -107,10 +107,10 @@ a, a > code {
   float: left;
 }
 .left-column h2, .left-column h3 {
-  color: #FF710099;
+  color: #201E2099;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
-  color: #FF7100;
+  color: #201E20;
 }
 .right-column {
   width: 75%;
@@ -132,7 +132,7 @@ img, video, iframe {
   max-width: 100%;
 }
 blockquote {
-  border-left: solid 5px #FF710080;
+  border-left: solid 5px #201E2080;
   padding-left: 1em;
 }
 .remark-slide table {
@@ -142,25 +142,25 @@ blockquote {
 }
 .remark-slide table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
-.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #4C2100 }
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #D2D2D2 }
 table.dataTable tbody {
-  background-color: #261000;
-  color: #FFE2CC;
+  background-color: #E8E8E8;
+  color: #161516;
 }
 table.dataTable.display tbody tr.odd {
-  background-color: #261000;
+  background-color: #E8E8E8;
 }
 table.dataTable.display tbody tr.even {
-  background-color: #4C2100;
+  background-color: #D2D2D2;
 }
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
-  color: #FFE2CC;
+  color: #161516;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button {
-  color: #FFE2CC !important;
+  color: #161516 !important;
 }
 
 @page { margin: 0; }
