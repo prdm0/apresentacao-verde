@@ -18,7 +18,7 @@ Após entender o [**RMarkdown**](https://rmarkdown.rstudio.com/), ficará fácil
 
 **Para rodar esse exemplo, preciso instalar quais bibliotecas?**
 
-Muito embora essas bibliotecas não sejam essenciais para construir apresentações com [**xaringan**](https://github.com/yihui/xaringan) você necessita instalá-las, uma vez que a apresentação faz uso de recursos como mapas, ícones e inserção de vídeos. Para instalar todas as bibliotecas necessárias, corra o código que segue:
+Muito embora essas bibliotecas não sejam essenciais para construir apresentações com [**xaringan**](https://github.com/yihui/xaringan), você necessita instalá-las, uma vez que a apresentação faz uso de recursos como mapas, ícones e inserção de vídeos. Para instalar todas as bibliotecas necessárias, corra o código que segue:
 
 ```r
 # Pacotes necessários
