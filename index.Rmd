@@ -156,11 +156,10 @@ Para que você consiga rodar esse exemplo, é interessante que instale alguns pa
 install.packages(
   c("devtools",
     "leaflet",
-    "magrittr",
-    "dplyr",
-    "ggplot2",
     "rmarkdown",
-    "icon"
+    "xaringan"
+    "icon",
+    "vembedr"
   )
 )
 ```
@@ -202,6 +201,20 @@ class: inverse, middle, center
 background-image: url("img/homem_aranha.jpg")
 background-size: cover
 
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+--
+
+```{r, echo=FALSE,out.width="400px", fig.align="left", out.height="150px",fig.show='hold'}
+knitr::include_graphics("img/logo-texto.png")
+```
+
+
 ---
 background-image: url("img/logo-branca.png")
 background-size: 100px
@@ -237,9 +250,7 @@ background-position: 100% 0%
 </br>
 </br>
 
-```{r, echo = FALSE, out.width="800px", out.height="600px", fig.align="center", fig.cap="Vídeo qualquer do YouTube."}
-knitr::include_url("https://www.youtube.com/watch?v=JcyqIA2eJww")
-```
+![](https://youtu.be/zNzZ1PfUDNk)
 
 ---
 background-image: url("img/logo-branca.png")

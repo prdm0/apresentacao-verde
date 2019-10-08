@@ -180,3 +180,7 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
     left: 0 !important;
   }
 }
+
+p {
+  text-align: justify;
+}
