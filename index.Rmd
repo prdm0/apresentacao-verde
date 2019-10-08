@@ -70,7 +70,7 @@ leaflet() %>% addTiles() %>%
 
 ???
 
-Uma anotação qualquer. É preciso apertar a tecla P para ter acesso ao "modo apresentador". As anotações podem incluir fórmulas matemáticas:
+Uma anotação qualquer. É preciso apertar a tecla **P** para ter acesso ao *modo apresentador*. As anotações podem incluir fórmulas matemáticas:
 
 $$\int_0^x f(x) dx$$
 
@@ -161,6 +161,34 @@ install.packages(
   )
 )
 ```
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Como posso aprender a fazer apresentações assim?
+
+Para entender como fazer uma apresentação usando a biblioteca [**xaringan**](https://github.com/yihui/xaringan) de [**R**](https://www.r-project.org/) é necessário entender o básico de **RMarkdown**. Depois estude o código **index.Rmd** que produz essa apresentação.
+
+</br>
+
+--
+
+**Você poderá consultar:**
+
+--
+
+- Um bom livro sobre **RMarkdown** você acessa [**aqui**](https://bookdown.org/yihui/rmarkdown/);
+
+--
+
+- Um material introdutório sobre **RMarkdown** pode ser acessado [**aqui**](https://prdm0.github.io/aulas_computacional/relatorio-markdown-em-r.html);
+
+--
+
+- Um bom material sobre **xaringan** pode ser acessado [**aqui**](https://bookdown.org/yihui/rmarkdown/xaringan.html) ou [**aqui**](https://github.com/yihui/xaringan/wiki).
+
 
 ---
 class: inverse, middle, center
