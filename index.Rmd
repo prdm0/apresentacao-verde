@@ -74,8 +74,6 @@ Uma anotação qualquer. É preciso apertar a tecla P para ter acesso ao "modo a
 
 $$\int_0^x f(x) dx$$
 
-
-
 --
 
 .pull-right[
@@ -186,6 +184,8 @@ knitr::include_graphics("img/gato_espanto.gif")
 ```
 ]
 
+--
+
 .pull-right[
 ```{r, echo=FALSE,out.width="400cm",  out.height="250px",fig.cap="Segunda gif.",fig.show='hold',fig.align='center'}
 knitr::include_graphics("img/102_anos.gif")
@@ -248,9 +248,44 @@ background-size: 100px
 background-position: 100% 0%
 
 </br>
-</br>
 
-![](https://youtu.be/zNzZ1PfUDNk)
+Inserir vídeos em **xaringan** é fácil:
+
+--
+
+```{r, eval = FALSE}
+library("htmltools")
+library("vembedr")
+embed_url("https://www.youtube.com/watch?v=WbsC_fGArVc")
+```
+
+--
+
+**Para entender melhor estude o código da apresentação**.
+
+--
+
+.pull-left[
+```{r, echo = FALSE, fig.align='center', fig.cap="Rush"}
+library("htmltools")
+library("vembedr")
+embed_url("https://www.youtube.com/watch?v=WbsC_fGArVc")
+```
+</br>
+Rush - Leave That Thing Alone.
+]
+
+--
+
+.pull-right[
+```{r, echo = FALSE, fig.align='center'}
+library("htmltools")
+library("vembedr")
+embed_url("https://www.youtube.com/watch?v=JcyqIA2eJww")
+```
+</br>
+    Rush - Tom Sawyer.
+]
 
 ---
 background-image: url("img/logo-branca.png")

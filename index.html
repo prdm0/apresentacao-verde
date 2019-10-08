@@ -59,8 +59,8 @@ background-position: 100% 0%
 --
 
 .pull-left[
-<div id="htmlwidget-85e9499f7a7f3737a46e" style="width:504px;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-85e9499f7a7f3737a46e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[-7.1404,-34.846199],17,{"maxWidth":150,"minWidth":150,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-87371571b784a3f2b1ca" style="width:504px;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-87371571b784a3f2b1ca">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[-7.1404,-34.846199],17,{"maxWidth":150,"minWidth":150,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]},"evals":[],"jsHooks":[]}</script>
 ]
 
 ???
@@ -68,8 +68,6 @@ background-position: 100% 0%
 Uma anotação qualquer. É preciso apertar a tecla P para ter acesso ao "modo apresentador". As anotações podem incluir fórmulas matemáticas:
 
 `$$\int_0^x f(x) dx$$`
-
-
 
 --
 
@@ -186,6 +184,8 @@ background-position: 100% 0%
 &lt;/div&gt;
 ]
 
+--
+
 .pull-right[
 &lt;div class="figure" style="text-align: center"&gt;
 &lt;img src="img/102_anos.gif" alt="Segunda gif." width="400cm" height="250px" /&gt;
@@ -249,9 +249,37 @@ background-size: 100px
 background-position: 100% 0%
 
 &lt;/br&gt;
-&lt;/br&gt;
 
-![](https://youtu.be/zNzZ1PfUDNk)
+Inserir vídeos em **xaringan** é fácil:
+
+--
+
+
+```r
+library("htmltools")
+library("vembedr")
+embed_url("https://www.youtube.com/watch?v=WbsC_fGArVc")
+```
+
+--
+
+**Para entender melhor estude o código da apresentação**.
+
+--
+
+.pull-left[
+<iframe src="https://www.youtube.com/embed/WbsC_fGArVc" width="420" height="315" frameborder="0" allowfullscreen=""></iframe>
+&lt;/br&gt;
+Rush - Leave That Thing Alone.
+]
+
+--
+
+.pull-right[
+<iframe src="https://www.youtube.com/embed/JcyqIA2eJww" width="420" height="315" frameborder="0" allowfullscreen=""></iframe>
+&lt;/br&gt;
+    Rush - Tom Sawyer.
+]
 
 ---
 background-image: url("img/logo-branca.png")
