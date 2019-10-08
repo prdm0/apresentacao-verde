@@ -14,7 +14,7 @@ Para começar a produzir suas apresentações utilizando a biblioteca [**xaringa
 
 Um bom material de [**RMarkdown**](https://rmarkdown.rstudio.com/) é intitulado [**R Markdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/). Nesse material você encontrará o que necessita para conhecer de forma safisfatória o [**RMarkdown**](https://rmarkdown.rstudio.com/).
 
-Após entender o [**RMarkdown**](https://rmarkdown.rstudio.com/), fica fácil compreender o conteúdo do arquivo **index.Rmd** que contém todo o código dessa apresentação.
+Após entender o [**RMarkdown**](https://rmarkdown.rstudio.com/), ficará fácil compreender o conteúdo do arquivo **index.Rmd** que contém todo o código dessa apresentação.
 
 # Para rodar esse exemplo, preciso instalar quais bibliotecas?
 
