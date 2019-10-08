@@ -10,13 +10,13 @@ Visualize a apresentação clicando [**aqui**](https://de-ufpb.github.io/templat
 
 ## O que preciso para começar a fazer minhas apresentações utilizando **xaringan**?
 
-Para começar a produzir suas apresentações utilizando a biblioteca [**xaringan**](https://github.com/yihui/xaringan) é necessário conhecer um pouco do [**RMarkdown**](https://rmarkdown.rstudio.com/). 
+Para começar a produzir suas apresentações utilizando a biblioteca [**xaringan**](https://github.com/yihui/xaringan) é necessário conhecer um pouco de [**RMarkdown**](https://rmarkdown.rstudio.com/). 
 
-Um bom material de [**RMarkdown**](https://rmarkdown.rstudio.com/) é intitulado [**R Markdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/). Nesse material você encontrará o que necessita para conhecer de forma safisfatória o [**RMarkdown**](https://rmarkdown.rstudio.com/).
+Um bom material de [**RMarkdown**](https://rmarkdown.rstudio.com/) é intitulado [**R Markdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/). Nesse material você encontrará o que necessita para conhecer de forma safisfatória a sintaxe de [**RMarkdown**](https://rmarkdown.rstudio.com/).
 
-Após entender o [**RMarkdown**](https://rmarkdown.rstudio.com/), ficará fácil compreender o conteúdo do arquivo **index.Rmd** que contém todo o código dessa apresentação.
+Após entender o [**RMarkdown**](https://rmarkdown.rstudio.com/), ficará fácil compreender o conteúdo do arquivo **index.Rmd**. É o arquivo **index.Rmd** que contém todo o código dessa apresentação. O arquivo **index.Rmd** com as imagens e os arquivos com extensão `.css` serão necessários para a reprodução dessa apresentação. Além disso você necessita instalar algumas bibliotecas.
 
-# Para rodar esse exemplo, preciso instalar quais bibliotecas?
+## Para rodar esse exemplo, preciso instalar quais bibliotecas?
 
 Muito embora essas bibliotecas não sejam essenciais para construir apresentações com [**xaringan**](https://github.com/yihui/xaringan) você necessita instalá-las, uma vez que a apresentação faz uso de recursos como mapas, ícones e inserção de vídeos. Para instalar todas as bibliotecas necessárias, corra o código que segue:
 
