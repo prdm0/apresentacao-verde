@@ -4,7 +4,7 @@ O pacote pacote [**xaringan**](https://github.com/yihui/xaringan) está disponí
 
 ## Visualizando
 
-Visualize a apresentação clicando [**aqui**](https://de-ufpb.github.io/template-apresentacao-rmarkdown/). 
+Visualize a apresentação clicando [**aqui**](https://prdm0.github.io/apresentacao-preta/). 
 
 **Dica**: Aperte **F11** para ampliar a apresentação e utilize as teclas as setas direcionais do seu teclado para navegar entre os frames. Utilizando a tecla **p** você entrará no modo apresentador, modo este apenas visível na primeira tela que é utilizada pelo apresentador.
 
