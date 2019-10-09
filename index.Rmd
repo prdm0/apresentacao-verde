@@ -100,13 +100,13 @@ leaflet() %>% addTiles() %>%
 background-position: 200% 0%
 class: center, middle
 
-# Destaque com fundo escuro
+# Destaque com fundo claro
 
 ---
 background-position: 100% 0%
 class: inverse, center, middle
 
-# Destaque com fundo claro: Poderá ser utilizado na mudança de seções
+# Destaque com fundo escuro: Poderá ser utilizado na mudança de seções
 
 ---
 background-image: url("img/logo-texto.png")
