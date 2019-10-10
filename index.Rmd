@@ -28,8 +28,8 @@ mono_accent_inverse (
 ```
 
 
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 
@@ -46,8 +46,8 @@ background-position: 100% 0%
 
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Onde estamos no mundo?
@@ -104,8 +104,8 @@ class: inverse, center, middle
 # Destaque com fundo claro: Poderá ser utilizado na mudança de seções
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Instalando o `xaringan`
@@ -137,8 +137,8 @@ devtools::install_github("yihui/xaringan")
 ]
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Outras bibliotecas necessárias
@@ -167,8 +167,8 @@ install.packages(
 ]
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Como posso aprender a fazer apresentações assim?
@@ -200,8 +200,8 @@ class: inverse, middle, center
 # Inserindo imagens e gifs
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Inserindo imagens e gifs
@@ -251,8 +251,8 @@ knitr::include_graphics("img/logo-texto.png")
 ]
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 </br>
@@ -279,8 +279,8 @@ class: inverse, middle, center
 
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 </br>
@@ -325,8 +325,8 @@ embed_url("https://www.youtube.com/watch?v=JcyqIA2eJww")
 ]]
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Uma citação
@@ -352,6 +352,7 @@ knitr::include_graphics("img/madruguinha.gif")
 
 ]]
 
+
 .fadeInRight.animated[
 .pull-left[
 ```{r, echo=FALSE,out.width="300cm", out.height="200px",fig.cap="",fig.show='hold',fig.align='left'}
@@ -365,8 +366,8 @@ class: inverse, middle, center
 # Com xaringan você poderá inserir códigos grandes no seu slide. Tudo ficará organizado e sem estrapolar o frame.
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Fica tranquilo, código longos não geram problemas
@@ -441,8 +442,8 @@ ggsave(filename = "empirical.pdf", width = 10, height = 10)
 ]]]
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Aumentando ou diminuindo fontes
@@ -471,8 +472,8 @@ knitr::include_graphics("img/espanto.gif")
 ]
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Tabelas
@@ -483,8 +484,8 @@ knitr::kable(mtcars[1L:6L, ], format = "html", caption = "Título da minha tabel
 ```
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Colocando caixas de anotações
@@ -525,8 +526,8 @@ $$\int_{-\infty}^{+\infty} f_{X} dx = 1.$$
 
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 class: middle, center
 
