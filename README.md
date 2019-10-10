@@ -7,7 +7,7 @@ O pacote pacote [**xaringan**](https://github.com/yihui/xaringan) está disponí
 
 ## Visualizando
 
-Visualize a apresentação clicando [**aqui**](https://prdm0.github.io/apresentacao-laranja/). 
+Visualize a apresentação clicando [**aqui**](https://prdm0.github.io/apresentacao-verde/). 
 
 **Dica**: Aperte **F11** para ampliar a apresentação e utilize as teclas as setas direcionais do seu teclado para navegar entre os frames. Utilizando a tecla **p** você entrará no modo apresentador, modo este apenas visível na primeira tela que é utilizada pelo apresentador.
 
@@ -41,5 +41,5 @@ A biblioteca [**xaringanthemer**](https://github.com/gadenbuie/xaringanthemer) �
 
 Alguns temas adicionais que poderá ajudar a você entender o **xarigan** ou mesmo reproduzir o tema para uma apresentação podem ser visualizados abaixo
 
-+ **Tema Verde**: ver o tema clicando [**aqui**](https://prdm0.github.io/apresentacao-verde/);
++ **Tema Laranja**: ver o tema clicando [**aqui**](https://prdm0.github.io/apresentacao-laranja/);
 + **Tema Preto**: ver o tema clicando [**aqui**](https://prdm0.github.io/apresentacao-preta/).

@@ -19,8 +19,8 @@ output:
 # install.packages(c("xaringan", "devtools"))
 # devtools::install_github("gadenbuie/xaringanthemer")
 library(xaringanthemer)
-mono_light(
-  base_color = "#201E20",
+mono_accent_inverse (
+  base_color  = "#BAFFC0",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Barlow", "400", "400i"),
   code_font_google   = google_font("Droid Mono"),
@@ -493,7 +493,7 @@ background-position: 100% 0%
 .pull-left[
 **Anotação do lado esquerdo:**
 .font80[.content-box[
-"O **CCEN**, um dos mais importantes Centros da UFPB, universidade pública, gratuita e estatal, sendo referência no ensino, pesquisa e extensão, funcionando com uma boa infra-estrutura e um modelo gerencial democrático e eficiente, adequados às múltiplas transformações e demandas da sociedade, tendo uma relevante atuação voltada ao desenvolvimento científico, tecnológico, cultural e socioeconômico da Paraíba, do Nordeste e do Brasil, visando à melhoria de qualidade da vida".
+"O CCEN, um dos mais importantes Centros da UFPB, universidade pública, gratuita e estatal, sendo referência no ensino, pesquisa e extensão, funcionando com uma boa infra-estrutura e um modelo gerencial democrático e eficiente, adequados às múltiplas transformações e demandas da sociedade, tendo uma relevante atuação voltada ao desenvolvimento científico, tecnológico, cultural e socioeconômico da Paraíba, do Nordeste e do Brasil, visando à melhoria de qualidade da vida".
 ]]
 ]
 
@@ -502,7 +502,7 @@ background-position: 100% 0%
 **Anotação do lado direito:**
 
 .font80[.content-box[
-O Curso de Bacharelado em Estatística foi criado no ano **2000**, a partir da **Resolução no 25/2000** do CONSEPE (Conselho Superior de Ensino, Pesquisa e Extensão). Desde a primeira turma de formandos em 2004.1, todos os bacharéis em Estatística da UFPB obtiveram postos de trabalho e/ou ingressaram em programas de pós-graduação de comprovado nível de excelência.
+O Curso de Bacharelado em Estatística foi criado no ano 2000, a partir da Resolução no 25/2000 do CONSEPE (Conselho Superior de Ensino, Pesquisa e Extensão). Desde a primeira turma de formandos em 2004.1, todos os bacharéis em Estatística da UFPB obtiveram postos de trabalho e/ou ingressaram em programas de pós-graduação de comprovado nível de excelência.
 ]]
 ]
 
