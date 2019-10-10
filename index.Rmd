@@ -7,18 +7,13 @@ date: '</br>`r format(Sys.time(), "%d de %B de %Y")`'
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["tema_preto.css", "xaringan-themer.css"]
+    css: ["tema.css", "xaringan-themer.css", "animate.css"]
     nature:
       highlightStyle: github
       ratio: "16:9"
       highlightLines: true
       countIncrementalSlides: false
 ---
-
-background-image: url("img/logo_ufpb_de.png")
-background-size: 100px
-background-position: 100% 0%
-
 
 ```{r xaringan-themer, include = FALSE}
 # install.packages(c("xaringan", "devtools"))
@@ -33,8 +28,8 @@ mono_light(
 ```
 
 
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 
@@ -51,13 +46,11 @@ background-position: 100% 0%
 
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Onde estamos no mundo?
-
---
 
 .pull-left[
 ```{r fig.height=6, eval=require('leaflet'), echo = FALSE}
@@ -81,6 +74,8 @@ $$\int_0^x f(x) dx$$
 
 --
 
+.fadeInLeft.animated[
+
 .pull-right[
 O mapa ao lado foi produzido facilmente utilizando a biblioteca **leaflet**.
 ```{r fig.height=6, eval = FALSE}
@@ -94,23 +89,23 @@ leaflet() %>% addTiles() %>%
   )
 )
 ```
-]
+]]
 
 ---
-background-position: 200% 0%
+background-position: 100% 0%
 class: center, middle
 
-# Destaque com fundo claro
+# Destaque com fundo escuro
 
 ---
 background-position: 100% 0%
 class: inverse, center, middle
 
-# Destaque com fundo escuro: Poderá ser utilizado na mudança de seções
+# Destaque com fundo claro: Poderá ser utilizado na mudança de seções
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Instalando o `xaringan`
@@ -131,6 +126,7 @@ install.packages("xaringan")
 
 --
 
+.zoomIn.animated[
 **Forma 2**:
 
 Instalando do [**Github**](https://github.com/yihui/xaringan):
@@ -138,10 +134,11 @@ Instalando do [**Github**](https://github.com/yihui/xaringan):
 ```{r eval=FALSE, tidy=FALSE}
 devtools::install_github("yihui/xaringan")
 ```
+]
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Outras bibliotecas necessárias
@@ -154,6 +151,7 @@ Para que você consiga rodar esse exemplo, é interessante que instale alguns pa
 
 --
 
+.fadeInDownBig.animated[
 ```{r eval=FALSE, tidy=FALSE}
 # Perceba que usando o devtools na Forma 2 apresentada no frame anterior
 install.packages(
@@ -166,10 +164,11 @@ install.packages(
   )
 )
 ```
+]
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Como posso aprender a fazer apresentações assim?
@@ -201,8 +200,8 @@ class: inverse, middle, center
 # Inserindo imagens e gifs
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 # Inserindo imagens e gifs
@@ -210,6 +209,7 @@ background-position: 100% 0%
 </br>
 
 </br>
+
 
 .pull-left[
 ```{r, echo=FALSE,out.width="400px",  out.height="250px",fig.cap="Primeira gif.",fig.show='hold',fig.align='center'}
@@ -219,11 +219,12 @@ knitr::include_graphics("img/gato_espanto.gif")
 
 --
 
+.fadeInDownBig.animated[
 .pull-right[
 ```{r, echo=FALSE,out.width="400cm",  out.height="250px",fig.cap="Segunda gif.",fig.show='hold',fig.align='center'}
 knitr::include_graphics("img/102_anos.gif")
 ```
-]
+]]
 
 ---
 class: inverse, middle, center
@@ -243,14 +244,15 @@ background-size: cover
 
 --
 
+.rubberBand.animated[
 ```{r, echo=FALSE,out.width="400px", fig.align="left", out.height="150px",fig.show='hold'}
 knitr::include_graphics("img/logo-texto.png")
 ```
-
+]
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 </br>
@@ -263,11 +265,12 @@ knitr::include_graphics("img/batman.png")
 
 --
 
+.flip.animated[
 .pull-right[
 ```{r, echo=FALSE,out.width="250px",  out.height="500px",fig.cap="Esse é o Super-Hemílio.",fig.show='hold',fig.align='center'}
 knitr::include_graphics("img/super_hemilio.jpeg")
 ```
-]
+]]
 
 ---
 class: inverse, middle, center
@@ -276,8 +279,8 @@ class: inverse, middle, center
 
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 
 </br>
@@ -310,6 +313,7 @@ embed_url("https://www.youtube.com/watch?v=WbsC_fGArVc")
 
 --
 
+.flipInX.animated[
 .pull-right[
 ```{r, echo = FALSE, fig.align='center'}
 library("htmltools")
@@ -318,12 +322,214 @@ embed_url("https://www.youtube.com/watch?v=JcyqIA2eJww")
 ```
 </br>
     **Rush - Tom Sawyer.**
+]]
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Uma citação
+
+--
+
+.pull-left[
+
+<blockquote>
+A vingança nunca é plena, mata a alma e a envenena **...**
+</blockquote>
+.right[-- <cite>**Seu Madruga**</cite>]
+
+]
+
+--
+
+.fadeInLeft.animated[
+.pull-right[
+```{r, echo=FALSE,out.width="350cm", out.height="200px",fig.cap="Seu Madruga.",fig.show='hold',fig.align='center'}
+knitr::include_graphics("img/madruguinha.gif")
+```
+
+]]
+
+.fadeInRight.animated[
+.pull-left[
+```{r, echo=FALSE,out.width="300cm", out.height="200px",fig.cap="",fig.show='hold',fig.align='left'}
+knitr::include_graphics("img/aplausos.gif")
+```
+]]
+
+---
+class: inverse, middle, center
+
+# Com xaringan você poderá inserir códigos grandes no seu slide. Tudo ficará organizado e sem estrapolar o frame.
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Fica tranquilo, código longos não geram problemas
+
+Exemplo de um gráfico produzido usando a biblioteca [**ggplot2**](http://www.ggplot2-exts.org/gallery/). Utilize a barra lateral para visualizar todo o código.
+
+.bounceInUp.animated[
+.scroll-box-20[
+.code50[
+
+  ```{r, eval = F}
+library(ggplot2)
+library(showtext)
+library(cowplot)
+
+
+showtext_auto()
+font_add_google("Gloria Hallelujah", "gloria")
+
+empirical <- function(x, ...){
+  
+  domain <- seq(from = floor(min(x)), to = ceiling(max(x)) + 1L, length.out = 1e3L)
+  
+  test <- function(i) sum(x <= domain[i]) / length(x)
+  
+  result <- purrr::map_dbl(.x = 1L:length(domain), .f = test)
+  
+  list(x = domain, y = result)
+}
+
+
+set.seed(0L)
+dados <- rweibull(20L, shape = 2, scale = 1.5)
+
+result <- empirical(dados)
+
+x <- result$x
+y <- result$y
+  
+p1 <- ggplot(data = data.frame(x = x, y = y), aes(x = x, y = y))
+  
+p2 <- p1  + ggtitle(label = "Função de Distribuição Empírica", subtitle = "Gráfico 04")
+
+p3 <- p2 + scale_x_continuous(breaks = seq(0, 4, by = 0.3)) + scale_y_continuous(breaks = seq(0, 1, by = 0.05))
+
+p4 <- p3 + geom_hline(yintercept = 1, lty = 2, lwd = 1.1, color = "gray40", alpha = 0.6)
+
+p5 <- p4 + stat_function(args = list(shape = 2, scale = 1.5), fun = pweibull, lwd = 1.1, show.legend = TRUE, 
+                         aes(color = "Teórica")) + 
+      geom_line(lwd = 1.1, aes(colour = "Empírica")) + 
+      xlab(label = "x") + ylab(label = "Probabilidade")
+
+p6 <- p5 + scale_colour_manual(breaks = c("Teórica", "Empírica"),
+                               values = c("black", "blue"), name = "Curvas")
+
+theme_line <- theme(plot.title = element_text(face = "bold", family = "gloria"),
+                    plot.subtitle = element_text(family = "gloria"),
+                    axis.title = element_text(face = "bold", family = "gloria"),
+                    legend.title = element_text(face = "bold"),
+                    legend.spacing.y = unit(2, "mm"),
+                    legend.spacing.x = unit(5, "mm"),
+                    legend.margin = margin(r = 0.6, l = 0.2, b = 0.2, unit = 'cm'),
+                    legend.background = element_rect(fill = "gray95", color = "black"),
+                    legend.text = element_text(family = "gloria"))
+
+p7 <- p6 + theme_line
+  
+plot_grid(p1, p5, p6, p7, labels = c("A", "B", "C", "D"))
+
+ggsave(filename = "empirical.pdf", width = 10, height = 10)
+```
+]]]
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Aumentando ou diminuindo fontes
+
+.font10[Teste], .font20[Teste], .font40[Teste], .font50[Teste], .font60[Teste], .font70[Teste], .font80[Teste], .font90[Teste], .font100[Teste], .font110[Teste], .font120[Teste], .font130[Teste], .font150[Teste], .font170[Teste], .font180[Teste], .font190[Teste], .font200[Teste]
+
+--
+
+.fonte150[**Isso foi produzido fazendo:**]
+
+--
+
+```r
+.font10[Teste], .font20[Teste], .font40[Teste], .font50[Teste], .font60[Teste], .font70[Teste], .font80[Teste], .font90[Teste], .font100[Teste], .font110[Teste], .font120[Teste], .font130[Teste], .font150[Teste], .font170[Teste], .font180[Teste], .font190[Teste], .font200[Teste]
+```
+
+</br>
+</br>
+
+--
+
+.fadeIn.animated[
+```{r, echo=FALSE,out.width="300cm", out.height="200px",fig.cap="",fig.show='hold',fig.align='center'}
+knitr::include_graphics("img/espanto.gif")
+```
 ]
 
 ---
-background-image: url("img/logo-texto.png")
-background-size: 200px
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Tabelas
+
+
+```{r, fig.align = 'center'}
+knitr::kable(mtcars[1L:6L, ], format = "html", caption = "Título da minha tabela.")
+```
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
+background-position: 100% 0%
+
+# Colocando caixas de anotações
+
+
+.pull-left[
+**Anotação do lado esquerdo:**
+.font80[.content-box[
+"O **CCEN**, um dos mais importantes Centros da UFPB, universidade pública, gratuita e estatal, sendo referência no ensino, pesquisa e extensão, funcionando com uma boa infra-estrutura e um modelo gerencial democrático e eficiente, adequados às múltiplas transformações e demandas da sociedade, tendo uma relevante atuação voltada ao desenvolvimento científico, tecnológico, cultural e socioeconômico da Paraíba, do Nordeste e do Brasil, visando à melhoria de qualidade da vida".
+]]
+]
+
+.pull-right[
+
+**Anotação do lado direito:**
+
+.font80[.content-box[
+O Curso de Bacharelado em Estatística foi criado no ano **2000**, a partir da **Resolução no 25/2000** do CONSEPE (Conselho Superior de Ensino, Pesquisa e Extensão). Desde a primeira turma de formandos em 2004.1, todos os bacharéis em Estatística da UFPB obtiveram postos de trabalho e/ou ingressaram em programas de pós-graduação de comprovado nível de excelência.
+]]
+]
+
+</br>
+
+
+--
+
+.jello.animated[
+.fonte150[Escrevendo mais alguma coisa **...**]
+]
+
+.pull-right[
+**Outra anotação do lado direito:**
+.font80[.content-box[
+Mais alguma anotação **...**
+
+$$\int_{-\infty}^{+\infty} f_{X} dx = 1.$$
+]]]
+
+
+---
+background-image: url("img/logo-branca.png")
+background-size: 100px
 background-position: 100% 0%
 class: middle, center
 
+.wobble.animated[
 # Obrigado pela sua atenção!
+]

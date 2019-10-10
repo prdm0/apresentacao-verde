@@ -1,10 +1,13 @@
+**Desenvolvido por**: Pedro Rafael D. Marinho </br>
+**E-mail**: pedro.rafael.marinho@gmail.com
+
 # Apresentação construída em **xaringan**
 
 O pacote pacote [**xaringan**](https://github.com/yihui/xaringan) está disponível no [**CRAN**](https://cran.r-project.org/web/packages/available_packages_by_date.html) da linguagem [**R**](https://www.r-project.org/) e é útil para a criação de apresentações com o [**remark.js**](https://remarkjs.com/#1) utilizando o [**RMarkdown**](https://rmarkdown.rstudio.com/). 
 
 ## Visualizando
 
-Visualize a apresentação clicando [**aqui**](https://prdm0.github.io/apresentacao-preta/). 
+Visualize a apresentação clicando [**aqui**](https://prdm0.github.io/apresentacao-laranja/). 
 
 **Dica**: Aperte **F11** para ampliar a apresentação e utilize as teclas as setas direcionais do seu teclado para navegar entre os frames. Utilizando a tecla **p** você entrará no modo apresentador, modo este apenas visível na primeira tela que é utilizada pelo apresentador.
 
@@ -36,3 +39,7 @@ devtools::install_github(repo = "gadenbuie/xaringanthemer")
 ```
 A biblioteca [**xaringanthemer**](https://github.com/gadenbuie/xaringanthemer) é útil para que possamos gerar novos temas para as apresentações sem utilizar muito a linguagem [**CSS**](https://pt.wikipedia.org/wiki/Cascading_Style_Sheets). Com essa biblioteca, você facilmente conseguirá modificar o tema disponibilizado nessa apresentação. Clique [**aqui**](https://pkg.garrickadenbuie.com/xaringanthemer/articles/singles/themes.html) para visualizar alguns temas construídos utilizando o pacote [**xaringanthemer**](https://github.com/gadenbuie/xaringanthemer).
 
+Alguns temas adicionais que poderá ajudar a você entender o **xarigan** ou mesmo reproduzir o tema para uma apresentação podem ser visualizados abaixo
+
++ **Tema Verde**: ver o tema clicando [**aqui**](https://prdm0.github.io/apresentacao-verde/);
++ **Tema Preto**: ver o tema clicando [**aqui**](https://prdm0.github.io/apresentacao-preta/).
