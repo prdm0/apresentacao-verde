@@ -363,7 +363,7 @@ knitr::include_graphics("img/aplausos.gif")
 ---
 class: inverse, middle, center
 
-# Com xaringan você poderá inserir códigos grandes no seu slide. Tudo ficará organizado e sem estrapolar o frame.
+# Com xaringan você poderá inserir códigos grandes no seu slide. Tudo ficará organizado e sem extrapolar o frame.
 
 ---
 background-image: url("img/logo-branca.png")
